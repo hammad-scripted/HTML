@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Images</title>
+  </head>
+  <body>
+    <p>Images</p>
+
+    <img
+      src="image.jpg"
+      alt="Description of the image"
+      width="300"
+      height="200"
+    />
+
+    <img
+      src="https://images.unsplash.com/photo-1685959222430-9ab84326847f?w=600"
+      srcset="
+        https://images.unsplash.com/photo-1685959222430-9ab84326847f?w=300 300w,
+        https://images.unsplash.com/photo-1685959222430-9ab84326847f?w=600 600w
+      "
+      sizes="(max-width: 600px) 300px, 600px"
+      alt="Moon"
+    />
+    <figure>
+      <img src="sunset.jpg" alt="Beautiful sunset over the ocean" width="600" />
+      <figcaption>A stunning sunset captured in Malibu, California</figcaption>
+    </figure>
+  </body>
+</html>
