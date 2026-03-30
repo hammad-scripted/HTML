@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Block vs Inline</title>
+    <style>
+      /* Block elements */
+      .block {
+        background-color: lightblue;
+        border: 2px solid blue;
+        padding: 10px;
+        margin: 10px 0;
+      }
+
+      /* Inline elements */
+      .inline {
+        background-color: lightcoral;
+        border: 2px solid red;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Block vs Inline Demonstration</h1>
+
+    <h2>Block Elements (Each on new line, full width):</h2>
+    <div class="block">Block Element 1 (div)</div>
+    <div class="block">Block Element 2 (div)</div>
+    <div class="block">Block Element 3 (div)</div>
+
+    <h2>Inline Elements (Same line, only necessary width):</h2>
+    <p>
+      <span class="inline">Inline 1</span>
+      <span class="inline">Inline 2</span>
+      <span class="inline">Inline 3</span>
+      <span class="inline">Inline 4</span>
+    </p>
+
+    <h2>Mixed Block and Inline:</h2>
+    <div class="block">
+      This is a block div containing
+      <span class="inline">inline span 1</span> and
+      <span class="inline">inline span 2</span>
+      elements inside it.
+    </div>
+  </body>
+</html>
