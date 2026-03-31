@@ -1,0 +1,62 @@
+[33mcommit 6df0f3900d8a17817f8526c3e69613879cac1d5e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Mohamamd Hammad <hammad.scripted@gmail.com>
+Date:   Tue Mar 31 00:44:36 2026 +0530
+
+    block and inline elements
+
+[33mcommit ecab9d1dfcca3d17fae603b056d4b235964854ab[m
+Author: Mohamamd Hammad <hammad.scripted@gmail.com>
+Date:   Tue Mar 31 00:36:21 2026 +0530
+
+    forms basics
+
+[33mcommit a042b117277392507f2c58bc313671b287c03199[m
+Author: Mohamamd Hammad <hammad.scripted@gmail.com>
+Date:   Tue Mar 31 00:23:56 2026 +0530
+
+    html images
+
+[33mcommit d3aa6108bfacc22cdc34436f6cfc9779c5d94ad3[m
+Author: Mohamamd Hammad <hammad.scripted@gmail.com>
+Date:   Tue Mar 31 00:10:14 2026 +0530
+
+    self closing tag
+
+[33mcommit 42e9f103d2e85fcb85d14085223a5fb7d30d7685[m
+Merge: 8148d07 4d87a7b
+Author: Mohamamd Hammad <hammad.scripted@gmail.com>
+Date:   Mon Mar 30 23:59:03 2026 +0530
+
+    Merge branch 'main' of https://github.com/hammad-scripted/HTML
+
+[33mcommit 8148d07d00d2fc02fba99de530597b0c08844cf8[m
+Author: Mohamamd Hammad <hammad.scripted@gmail.com>
+Date:   Mon Mar 30 23:58:25 2026 +0530
+
+    hyperlink
+
+[33mcommit 4d87a7b1a6731ed882a3f849356ddafaca286156[m
+Author: hammad-scripted <hammad.scripted@gmail.com>
+Date:   Mon Mar 30 00:46:27 2026 +0530
+
+    Add README for HTML learning project
+    
+    This README file documents the HTML learning journey, including project structure, learning goals, and resources.
+
+[33mcommit 2711639a6110558dc0e6b3424247543975e47623[m
+Author: Mohamamd Hammad <hammad.scripted@gmail.com>
+Date:   Mon Mar 30 00:42:36 2026 +0530
+
+    Paragraph and lists
+
+[33mcommit 0c3094a18c5b180734c2cb02f548247c5b1af2b4[m
+Author: Mohamamd Hammad <hammad.scripted@gmail.com>
+Date:   Mon Mar 30 00:36:41 2026 +0530
+
+    html headings
+
+[33mcommit 1223302ccaaaae0995b39db58b7397f3317242db[m
+Author: Mohamamd Hammad <hammad.scripted@gmail.com>
+Date:   Mon Mar 30 00:16:52 2026 +0530
+
+    first commit
