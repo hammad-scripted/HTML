@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            display: flex;
+            gap: 20px;
+            margin: 20px 0;
+        }
+        article {
+            flex: 3;
+        }
+        aside {
+            flex: 1;
+            background-color: #f4f4f4;
+            padding: 15px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Site Header -->
+    <header>
+        <h1>My Tech Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <!-- Primary Content Area -->
+        <div>
+            <!-- Featured Article -->
+            <article>
+                <header>
+                    <h2>Understanding Semantic HTML</h2>
+                    <p>
+                        Published on <time datetime="2024-03-31">March 31, 2024</time>
+                        by <address><a href="mailto:john@example.com">John Doe</a></address>
+                    </p>
+                </header>
+                
+                <section>
+                    <h3>Introduction</h3>
+                    <p>Semantic HTML is crucial for modern web development. It makes your code more <mark>accessible</mark> and <mark>SEO-friendly</mark>.</p>
+                    
+                    <figure>
+                        <img src="semantic-html.png" alt="Semantic HTML structure diagram" width="600">
+                        <figcaption>Figure 1: HTML5 Semantic Elements Structure</figcaption>
+                    </figure>
+                </section>
+                
+                <section>
+                    <h3>Benefits</h3>
+                    <ul>
+                        <li>Better accessibility</li>
+                        <li>Improved SEO</li>
+                        <li>Easier maintenance</li>
+                        <li>Clearer code structure</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h3>Common Questions</h3>
+                    <details>
+                        <summary>What's the difference between div and section?</summary>
+                        <p>A <code>&lt;div&gt;</code> is a generic container with no semantic meaning, while <code>&lt;section&gt;</code> represents a thematic grouping of content.</p>
+                    </details>
+                    
+                    <details>
+                        <summary>When should I use article vs section?</summary>
+                        <p>Use <code>&lt;article&gt;</code> for self-contained content that could be distributed independently. Use <code>&lt;section&gt;</code> for thematic groupings within a larger context.</p>
+                    </details>
+                </section>
+                
+                <footer>
+                    <p>Tags: HTML, Web Development, Semantic HTML, Tutorial</p>
+                    <p>Share this article: [Social media buttons would go here]</p>
+                </footer>
+            </article>
+            
+            <!-- Comments Section -->
+            <section id="comments">
+                <h3>Comments</h3>
+                
+                <article class="comment">
+                    <header>
+                        <h4>Jane Smith</h4>
+                        <time datetime="2024-03-31T10:30">March 31, 2024 at 10:30 AM</time>
+                    </header>
+                    <p>Great article! Very informative and well-explained.</p>
+                </article>
+                
+                <article class="comment">
+                    <header>
+                        <h4>Mike Johnson</h4>
+                        <time datetime="2024-03-31T14:15">March 31, 2024 at 2:15 PM</time>
+                    </header>
+                    <p>Thanks for sharing. This helped me understand semantic HTML better!</p>
+                </article>
+            </section>
+        </div>
+        
+        <!-- Sidebar -->
+        <aside>
+            <section>
+                <h3>About the Author</h3>
+                <p>John Doe is a web developer with 10 years of experience in HTML, CSS, and JavaScript.</p>
+            </section>
+            
+            <section>
+                <h3>Recent Posts</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#">CSS Grid Layout Guide</a></li>
+                        <li><a href="#">JavaScript ES6 Features</a></li>
+                        <li><a href="#">Responsive Design Tips</a></li>
+                    </ul>
+                </nav>
+            </section>
+            
+            <section>
+                <h3>Categories</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                        <li><a href="#">Web Design</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </aside>
+    </main>
+    
+    <!-- Site Footer -->
+    <footer>
+        <section>
+            <h3>Contact Information</h3>
+            <address>
+                Email: <a href="mailto:contact@techblog.com">contact@techblog.com</a><br>
+                Phone: <a href="tel:+1234567890">123-456-7890</a>
+            </address>
+        </section>
+        
+        <nav>
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Sitemap</a></li>
+            </ul>
+        </nav>
+        
+        <p>&copy; 2024 My Tech Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
